@@ -19,7 +19,7 @@
                         <div class="col text-left">Update Product</div>
                         <div class="col text-right">
                         <a href="/product" class="btn btn-xs btn-dark">
-                            <i class="fa fa-backspace"></i> Back  
+                         Back  
                         </a>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                     <button type="submit" class="btn btn-primary">Save</button>
                 </form>                    
             </div>
-            </div>
+            </div
         </div>
     </div>
 @endsection
