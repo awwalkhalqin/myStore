@@ -25,9 +25,6 @@
             <form action="{{ route('product.destroy', $pr->id) }}" method="post">
               @csrf
               @method('DELETE')
-              <a href="{{ route('product.show', $pr->id) }}" class="btn btn-info">
-                Detail
-              </a>
               <a href="{{ route('product.edit', $pr->id) }}" class="btn btn-warning">
                 Edit
               </a>

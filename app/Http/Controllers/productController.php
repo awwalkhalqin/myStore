@@ -7,11 +7,6 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
       $product = Product::all();
@@ -26,22 +21,6 @@ class ProductController extends Controller
 
       return view('product', compact('product'));
     }
-
-    public function create()
-    {
-        //
-    }
-    
-    public function store(Request $request)
-    {
-        //
-    }
-    
-    // public function show(Product $product)
-    // {
-    //   return view("product.show", compact("product"));
-    // }
-
     
     public function edit(Product $product)
     {
